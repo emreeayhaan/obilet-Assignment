@@ -1,0 +1,65 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+@model IndexViewModel
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <nav class="navbar navbar-expand-xl navbar-dark bg-primary">
+            </nav>
+            <form class="bg-light p-3" asp-action="GetJourneys">
+                <div id="originDiv" class="mb-3 p-3 bg-white">
+                    <i class="fas fa-map-marker customIconColor"></i>
+                    <label for="origin" class="form-label text-primary">Nereden</label>
+                    <select id="originSelect" asp-for="SelectedOrigin" asp-items="Model.Origin" class="selectpicker form-control">
+                    </select>
+                    <div class="row">
+                        <div class="col-md-11"></div>
+                        <div class="col-md-1 p-1">
+                            <div id="swap">
+                                <a href="javascript:void(0)" onclick="swapLocations()">
+                                    <img src="~/image/swap.png" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3 p-3 bg-white">
+                    <i class="fa fa-map-marker-alt customIconColor"></i>
+                    <label for="destination" class="form-label text-primary">Nereye</label>
+                    <select id="destinationSelect" asp-for="SelectedDestination" asp-items="Model.Destination" class="selectpicker form-control">
+                    </select>
+                </div>
+                <div class="mb-3 bg-white p-3 row">
+                    <div class="col-10">
+                        <label for="departureDate" class="form-label text-primary">Tarih</label>
+                        <div class="input-group">
+                            <input type="date" asp-for="DepatureDate" class="form-control" id="departureDate" name="DepatureDate">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="input-group-append">
+                            <button class="btn btn-secondary" type="button" id="setTodayButton">Bugün</button>
+                            <div class="mb-3 p-2">
+                                <button class="btn btn-outline-secondary" type="button" id="setTomorrowButton">Yarın</button>
+                            </div>
+                        </div>
+                    </div>
+                    <span asp-validation-for="SelectedOrigin" class="text-danger"></span>
+                    <span asp-validation-for="DepatureDate" class="text-danger"></span>
+                </div>
+                <div class="mb-3 p-3 row">
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                        <button type="submit" class="btn btn-primary mt-3">Bileti Bul</button>
+                    </div>
+                </div>
+                <div class="mb-0 bg-white p-3 row">
+                    <div class="col-md-12 text-center customIconColor">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras congue dapibus libero, nec pretium augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla ut mollis sem. Nullam non pretium augue. Phasellus at leo id augue vulputate tincidunt. Phasellus pulvinar consectetur suscipit. Ut vehicula, turpis a interdum elementum, dolor nisi luctus metus, sed aliquam tortor ipsum nec massa. Sed commodo venenatis imperdiet.
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,67 @@
+﻿@{
+    ViewData["Title"] = "Privacy";
+}
+@model IndexViewJourneyModel
+
+<div class="container mt-5">
+    <div class="col-md-5 offset-md-4">
+        <nav class="navbar navbar-expand-xl navbar-dark bg-primary">
+            <div class="col-md-3 p-4">
+                <a asp-controller="Home" asp-action="Index" asp-route-isReturnPage="true"><i class="fa fa-arrow-left text-white" aria-hidden="true"></i></a>
+            </div>
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-md-8 text-center">
+                        <label for="Locations" class="text-white">@Model.OriginLocation - @Model.DestinationLocation</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 text-center">
+                        <label for="SelectedDate" class="text-white">@Model.SelectedDate</label>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <form class="bg-light">
+            @foreach (var item in Model.Journeys)
+            {
+                <div class="p-3">
+                    <div class="border border-dark-subtle rounded">
+                        <div class="row">
+                            <div class="col-9">
+                                <div class="row p-1">
+                                    <div class="col-3">
+                                        <label class="form-label text-primary">KALKIŞ</label>
+                                        <div class="input-group">
+                                            <label class="form-label text-primary fw-bold">@item.Departure</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 mt-4">
+                                        <label class="form-label text-primary">--></label>
+                                    </div>
+                                    <div class="col-5">
+                                        <label class="form-label text-primary">VARIŞ</label>
+                                        <div class="input-group">
+                                            <label class="form-label text-primary fw-bold">@item.Arrival</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="input-group-append p-1 mt-4">
+                                    <div class="price-box bg-danger rounded">
+                                        <label for="price" class="form-label text-white">@item.Price @item.Currency</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <h6>@item.Origin - @item.Destination</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </form>
+    </div>
+</div>
+

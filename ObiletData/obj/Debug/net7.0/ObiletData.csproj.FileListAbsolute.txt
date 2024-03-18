@@ -1,0 +1,12 @@
+C:\Users\Acer\source\repos\obilet-Assignment\ObiletData\bin\Debug\net7.0\ObiletData.deps.json
+C:\Users\Acer\source\repos\obilet-Assignment\ObiletData\bin\Debug\net7.0\ObiletData.dll
+C:\Users\Acer\source\repos\obilet-Assignment\ObiletData\bin\Debug\net7.0\ObiletData.pdb
+C:\Users\Acer\source\repos\obilet-Assignment\ObiletData\obj\Debug\net7.0\ObiletData.csproj.AssemblyReference.cache
+C:\Users\Acer\source\repos\obilet-Assignment\ObiletData\obj\Debug\net7.0\ObiletData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\source\repos\obilet-Assignment\ObiletData\obj\Debug\net7.0\ObiletData.AssemblyInfoInputs.cache
+C:\Users\Acer\source\repos\obilet-Assignment\ObiletData\obj\Debug\net7.0\ObiletData.AssemblyInfo.cs
+C:\Users\Acer\source\repos\obilet-Assignment\ObiletData\obj\Debug\net7.0\ObiletData.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\obilet-Assignment\ObiletData\obj\Debug\net7.0\ObiletData.dll
+C:\Users\Acer\source\repos\obilet-Assignment\ObiletData\obj\Debug\net7.0\refint\ObiletData.dll
+C:\Users\Acer\source\repos\obilet-Assignment\ObiletData\obj\Debug\net7.0\ObiletData.pdb
+C:\Users\Acer\source\repos\obilet-Assignment\ObiletData\obj\Debug\net7.0\ref\ObiletData.dll

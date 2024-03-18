@@ -1,0 +1,15 @@
+C:\Users\Acer\source\repos\obilet-Assignment\ObiletBusiness\bin\Debug\net7.0\ObiletBusiness.deps.json
+C:\Users\Acer\source\repos\obilet-Assignment\ObiletBusiness\bin\Debug\net7.0\ObiletBusiness.dll
+C:\Users\Acer\source\repos\obilet-Assignment\ObiletBusiness\bin\Debug\net7.0\ObiletBusiness.pdb
+C:\Users\Acer\source\repos\obilet-Assignment\ObiletBusiness\bin\Debug\net7.0\ObiletData.dll
+C:\Users\Acer\source\repos\obilet-Assignment\ObiletBusiness\bin\Debug\net7.0\ObiletData.pdb
+C:\Users\Acer\source\repos\obilet-Assignment\ObiletBusiness\obj\Debug\net7.0\ObiletBusiness.csproj.AssemblyReference.cache
+C:\Users\Acer\source\repos\obilet-Assignment\ObiletBusiness\obj\Debug\net7.0\ObiletBusiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\source\repos\obilet-Assignment\ObiletBusiness\obj\Debug\net7.0\ObiletBusiness.AssemblyInfoInputs.cache
+C:\Users\Acer\source\repos\obilet-Assignment\ObiletBusiness\obj\Debug\net7.0\ObiletBusiness.AssemblyInfo.cs
+C:\Users\Acer\source\repos\obilet-Assignment\ObiletBusiness\obj\Debug\net7.0\ObiletBusiness.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\obilet-Assignment\ObiletBusiness\obj\Debug\net7.0\ObiletBusiness.csproj.CopyComplete
+C:\Users\Acer\source\repos\obilet-Assignment\ObiletBusiness\obj\Debug\net7.0\ObiletBusiness.dll
+C:\Users\Acer\source\repos\obilet-Assignment\ObiletBusiness\obj\Debug\net7.0\refint\ObiletBusiness.dll
+C:\Users\Acer\source\repos\obilet-Assignment\ObiletBusiness\obj\Debug\net7.0\ObiletBusiness.pdb
+C:\Users\Acer\source\repos\obilet-Assignment\ObiletBusiness\obj\Debug\net7.0\ref\ObiletBusiness.dll

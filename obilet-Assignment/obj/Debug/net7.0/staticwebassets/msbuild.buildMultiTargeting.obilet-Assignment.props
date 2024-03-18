@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\obilet-Assignment.props" />
+</Project>
